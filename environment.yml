@@ -2,6 +2,7 @@ name: video_behavior_tracking
 channels:
 - conda-forge
 - defaults
+- menpo
 dependencies:
 - "python >= 3.6"
 - numpy
@@ -13,3 +14,5 @@ dependencies:
 - "pytest >= 2.7.1"
 - pytest-cov
 - coveralls
+- jupyterlab
+- nb_conda
